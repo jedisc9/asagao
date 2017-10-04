@@ -42,6 +42,15 @@ class LessonController < ApplicationController
 	def step10
 		@comment = "<script>alert('危険！')</script>こんにちは。"
 	end
+
+	def step11
+		@comment = "<strong>安全なHTML</strong>"
+	end
+
+	def step12
+		@population = 704414
+		@surface = 141.31
+	end
 	
 end
 
